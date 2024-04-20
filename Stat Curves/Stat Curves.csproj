@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F9E2094-62C5-4335-A702-8CF492EF4C7D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StatCurves</RootNamespace>
+    <AssemblyName>Stat Curves</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>..\aq3d\AQ3D_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassRanks.cs" />
+    <Compile Include="CrossProjectSettings.cs" />
+    <Compile Include="EquipItemSlot.cs" />
+    <Compile Include="GameCurves.cs" />
+    <Compile Include="Gold.cs" />
+    <Compile Include="Infusion.cs" />
+    <Compile Include="Interpolator.cs" />
+    <Compile Include="ItemRarity.cs" />
+    <Compile Include="ItemSlots.cs" />
+    <Compile Include="ItemStatWeight.cs" />
+    <Compile Include="ItemType.cs" />
+    <Compile Include="ItemTypes.cs" />
+    <Compile Include="Levels.cs" />
+    <Compile Include="Modifiers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RarityType.cs" />
+    <Compile Include="Stat.cs" />
+    <Compile Include="Stats.cs" />
+    <Compile Include="TradeSkill.cs" />
+    <Compile Include="TradeSkillType.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
