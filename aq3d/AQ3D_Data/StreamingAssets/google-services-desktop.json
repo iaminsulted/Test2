@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "120122052165",
+    "firebase_url": "https://adventurequest-3d.firebaseio.com",
+    "project_id": "adventurequest-3d",
+    "storage_bucket": "adventurequest-3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120122052165:android:e7efd6b2099c5499",
+        "android_client_info": {
+          "package_name": "com.battleon.aq3d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "120122052165-cncufhvieebrkh8ivetlv70cr3m2vuji.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.battleon.aq3d",
+            "certificate_hash": "ee843884f73ebe47e989ea0cc34ed953c5a7225c"
+          }
+        },
+        {
+          "client_id": "120122052165-g226m04octhmorm7qun69g9eb42qocho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqNu_RuCgefz4P71OHvlV9Kt11PkX9j8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "120122052165-g226m04octhmorm7qun69g9eb42qocho.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "120122052165-1lr1rsekgd6nj30qr6j8390pcidepicr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.battleon.aq3d",
+                "app_store_id": "968076300"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
