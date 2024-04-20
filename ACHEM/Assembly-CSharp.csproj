@@ -1,0 +1,110 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Stat Curves">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\Stat Curves.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing.Stores">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.Purchasing.Stores.dll</HintPath>
+    </Reference>
+    <Reference Include="Facebook.Unity">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\Facebook.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="UniWebView-CSharp">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UniWebView-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="UniPasteBoardPlugin">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UniPasteBoardPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\OneDrive\Documents\GitHub\Test\aq3d\AQ3D_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+public enum HighlightTargetName
+{
+	TrackQuestButton,
+	OpenInventoryFromHUDButton,
+	ItemButton,
+	EquipItemButton,
+	CloseButton,
+	OpenMainMenuFromHUDButton,
+	OpenInventoryFromMainMenuButton,
+	QuestDetailActionButton,
+	OpenClassUIFromMainMenuButton,
+	UnlockOrEquipClassButton,
+	MergeItemButton,
+	CraftItemButton,
+	ClaimItemButton,
+	MessageBoxOkButton,
+	UseOrUnequipButton,
+	CraftBar,
+	OpenLootFromHUDButton
+}

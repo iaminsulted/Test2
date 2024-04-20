@@ -1,0 +1,28 @@
+public enum MachineSpellType
+{
+	Burn = 1,
+	Heal,
+	Attack,
+	Poison,
+	Bird,
+	Buff,
+	Debuff,
+	Wolf,
+	HighBuff,
+	HighDebuff,
+	Freeze,
+	StuntBosses,
+	GhostGRN,
+	GhostRED,
+	GhostBLU,
+	GhostPUR,
+	SnareLong,
+	Burst,
+	BriefSlow,
+	MediumSlow,
+	DefBuff,
+	AtkBuff,
+	Bless,
+	Silence,
+	RemoveSilence
+}
